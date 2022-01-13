@@ -1,0 +1,80 @@
+[2021-12-16T22:28:23.027] [WARN] myWarn - El usuario no ingresó un campo de Producto requerido .
+[2021-12-16T22:38:36.403] [WARN] myWarn - Error en servidor Error: listen EADDRINUSE: address already in use :::8080
+[2021-12-16T22:51:41.117] [WARN] myWarn - 403
+[2021-12-16T22:52:05.261] [WARN] myWarn - 403
+[2021-12-16T22:52:52.129] [WARN] myWarn - 403
+[2021-12-16T22:53:52.941] [WARN] myWarn - 403
+[2021-12-16T23:04:54.102] [WARN] myWarn - 403
+[2021-12-16T23:04:54.107] [WARN] myWarn - 403
+[2021-12-16T23:05:05.276] [WARN] myWarn - 403
+[2021-12-16T23:05:05.278] [WARN] myWarn - 403
+[2021-12-16T23:05:16.464] [WARN] myWarn - 403
+[2021-12-16T23:05:16.467] [WARN] myWarn - 403
+[2021-12-16T23:05:25.591] [WARN] myWarn - 403
+[2021-12-16T23:05:25.593] [WARN] myWarn - 403
+[2021-12-16T23:05:34.714] [WARN] myWarn - 403
+[2021-12-16T23:05:34.716] [WARN] myWarn - 403
+[2021-12-16T23:05:43.836] [WARN] myWarn - 403
+[2021-12-16T23:05:43.838] [WARN] myWarn - 403
+[2021-12-16T23:05:50.388] [WARN] myWarn - 403
+[2021-12-16T23:05:50.390] [WARN] myWarn - 403
+[2021-12-16T23:05:52.958] [WARN] myWarn - 403
+[2021-12-16T23:05:52.960] [WARN] myWarn - 403
+[2021-12-16T23:06:02.076] [WARN] myWarn - 403
+[2021-12-16T23:06:02.079] [WARN] myWarn - 403
+[2021-12-16T23:06:11.197] [WARN] myWarn - 403
+[2021-12-16T23:06:11.199] [WARN] myWarn - 403
+[2021-12-16T23:06:20.317] [WARN] myWarn - 403
+[2021-12-16T23:06:20.319] [WARN] myWarn - 403
+[2021-12-16T23:06:29.444] [WARN] myWarn - 403
+[2021-12-16T23:06:29.446] [WARN] myWarn - 403
+[2021-12-16T23:06:35.506] [WARN] myWarn - 403
+[2021-12-16T23:06:35.508] [WARN] myWarn - 403
+[2021-12-16T23:06:38.561] [WARN] myWarn - 403
+[2021-12-16T23:06:38.563] [WARN] myWarn - 403
+[2021-12-16T23:06:47.674] [WARN] myWarn - 403
+[2021-12-16T23:06:47.676] [WARN] myWarn - 403
+[2021-12-16T23:06:56.792] [WARN] myWarn - 403
+[2021-12-16T23:06:56.794] [WARN] myWarn - 403
+[2021-12-16T23:07:05.916] [WARN] myWarn - 403
+[2021-12-16T23:07:05.918] [WARN] myWarn - 403
+[2021-12-16T23:07:15.041] [WARN] myWarn - 403
+[2021-12-16T23:07:15.043] [WARN] myWarn - 403
+[2021-12-16T23:07:20.653] [WARN] myWarn - 403
+[2021-12-16T23:07:20.655] [WARN] myWarn - 403
+[2021-12-16T23:10:16.061] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:17.565] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:17.569] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:21.122] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:21.128] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:26.692] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:26.698] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:35.817] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}
+[2021-12-16T23:10:35.823] [WARN] myWarn - 403 function status(code) {
+  this.statusCode = code;
+  return this;
+}

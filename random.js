@@ -7,7 +7,7 @@ process.on("message", numero => {
         return Math.floor(Math.random() * (max - min)) + min;
     }
     for (let i = 0; i < numero; i++) {
-        let random = obtenerRandom(1, 1001)
+        let random = obtenerRandom(1, 100001)
         resultado[random] = (resultado[random] || 0) + 1
     }
     process.send(resultado);

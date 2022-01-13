@@ -1,9 +1,12 @@
 
 
 const productosDao = require("../daos/productos/index.js");
+const {loggerWarn,loggerTrace,loggerDefault,loggerError} = require("../logger/log4js");
+
+
 
 exports.crearProducto = async (req, res) => {
-
+    loggerTrace.trace("Ingreso a crearProducto");
     try {
 
         if (req.nombre || req.descripcion || req.código || req.foto || req.stock
@@ -42,32 +45,35 @@ exports.crearProducto = async (req, res) => {
 
         } else {
          
+            loggerWarn.warn(
+                `El usuario no ingresó un campo de Producto requerido .`
+              );
                 throw new Error(`Error al insertar Productos campos requeridos`);
          
         }
 
-    } catch (error) {
-        console.log(error);
+    } catch (error) {     
+        loggerError.error(error);
         res.status(500).send('Hubo un error');
     }
 }
 
 exports.obtenerProductos = async (req, res) => {
-
+    loggerTrace.trace("Ingreso a obtenerProductos");
     try {
 
         const productos = await productosDao.getAll();
         res.json(productos)
 
     } catch (error) {
-        console.log(error);
+        loggerError.error(error);
         res.status(500).send('Hubo un error');
     }
 
 }
 
 exports.actualizarProductos = async (req, res) => {
-
+    loggerTrace.trace("Ingreso a actualizarProductos");
     try {
         const { nombre, descripcion, codigo, foto, precio, stock } = req.body;
         let producto = await productosDao.getById(req.params.id);
@@ -86,14 +92,14 @@ exports.actualizarProductos = async (req, res) => {
         res.json(producto);
 
     } catch (error) {
-        console.log(error);
+        loggerError.error(error);
         res.status(500).send('Hubo un error');
     }
 }
 
 
 exports.obtenerProducto = async (req, res) => {
-
+    loggerTrace.trace("Ingreso a obtenerProducto");
     try {
         let producto = await productosDao.getById(req.params.id);
 
@@ -104,13 +110,13 @@ exports.obtenerProducto = async (req, res) => {
         res.json(producto);
 
     } catch (error) {
-        console.log(error);
+        loggerError.error(error);
         res.status(500).send('Hubo un error');
     }
 }
 
 exports.eliminarProducto = async (req, res) => {
-
+    loggerTrace.trace("Ingreso a eliminarProducto");
     try {
         let producto = await productosDao.getById(req.params.id);
 
@@ -122,7 +128,7 @@ exports.eliminarProducto = async (req, res) => {
         res.json({ msg: 'Producto eliminado con exito' });
 
     } catch (error) {
-        console.log(error);
+        loggerError.error(error);
         res.status(500).send('Hubo un error');
     }
 }

@@ -1,0 +1,11 @@
+[2021-12-16T22:28:23.028] [ERROR] myError - Error: Error al insertar Productos campos requeridos
+    at exports.crearProducto (E:\Users\Fede\Documents\DESA\clase15b\backend\controllers\productoController.js:51:23)
+    at Layer.handle [as handle_request] (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\route.js:137:13)
+    at esAdmin (E:\Users\Fede\Documents\DESA\clase15b\backend\middleware\acceso.js:6:12)
+    at Layer.handle [as handle_request] (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Users\Fede\Documents\DESA\clase15b\backend\node_modules\express\lib\router\index.js:335:12)

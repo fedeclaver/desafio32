@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "Montañas",
+    "timestamp": 1632927760139,
+    "descripcion": "Montañas",
+    "codigo": "123",
+    "foto": "https://i.picsum.photos/id/79/200/200.jpg?hmac=jnCRb6UX5VWA4Kxl91zIBXPa2iJJsmVwzbxrzt6TahQ",
+    "precio": "50",
+    "stock": "12"
+  },
+  {
+    "id": 3,
+    "timestamp": "1632626867846",
+    "nombre": "Perro2",
+    "descripcion": "Acantilado",
+    "codigo": "125",
+    "foto": "https://i.picsum.photos/id/483/200/200.jpg?hmac=tIKQEdwuW7trzVGWGE-cAgtpmRJla51INgO9dvJG3hA",
+    "precio": "150",
+    "stock": "20"
+  },
+  {
+    "id": 4,
+    "timestamp": 1632878233884,
+    "nombre": "Puente",
+    "descripcion": "Puente Pepe",
+    "codigo": "555",
+    "foto": "https://i.picsum.photos/id/965/200/200.jpg?hmac=OalaXaaPbpRZbMwF3uJMUdZIpUmyqse0anUnQcbStrM",
+    "precio": 1000,
+    "stock": 55
+  },
+  {
+    "id": 5,
+    "timestamp": 1632878233884,
+    "nombre": "Globo",
+    "descripcion": "Globo Aerostatico",
+    "codigo": "555",
+    "foto": "https://i.picsum.photos/id/174/200/200.jpg?hmac=drl_DcYoPvaGCAF7hzG6zjvSnt77TUxwZFQz_-FDLuI",
+    "precio": 1000,
+    "stock": 55
+  },
+  {
+    "id": 6,
+    "timestamp": 1633005067620,
+    "nombre": "Capucha",
+    "descripcion": "Capucha Gris",
+    "codigo": "1111",
+    "foto": "https://i.picsum.photos/id/338/200/200.jpg?hmac=5S5SeR5xW8mbN3Ml7wTTJPePX392JafhcFMGm7IFNy0",
+    "precio": 1500,
+    "stock": 111
+  },
+  {
+    "id": 7,
+    "timestamp": 1633005488145,
+    "nombre": "Capucha2",
+    "descripcion": "Capucha Gris2",
+    "codigo": "1111",
+    "foto": "https://i.picsum.photos/id/338/200/200.jpg?hmac=5S5SeR5xW8mbN3Ml7wTTJPePX392JafhcFMGm7IFNy0",
+    "precio": 1600,
+    "stock": 111
+  }
+]

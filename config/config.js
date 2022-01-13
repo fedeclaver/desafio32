@@ -1,3 +1,5 @@
+require("dotenv").config();
+process.argv.forEach((value, index) => console.log(index + " => " + value));
 
 module.exports =  {
     fileSystem: {
@@ -23,8 +25,9 @@ module.exports =  {
         "token_uri": "https://oauth2.googleapis.com/token",
         "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
         "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-a61dq%40basefirebase-f18bf.iam.gserviceaccount.com"
-    }
-
+    },
+    IS_CLUSTER: process.argv[2] === "CLUSTER" ? true : false,
+    PORT: parseInt(process.argv[3]) || process.env.PORT || 8080,
 }
   
 
